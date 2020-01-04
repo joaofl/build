@@ -31,8 +31,8 @@ index 12e1756..79139f3 100644
 +	phy-mode = "rgmii";
 +	phy-handle = <&ext_rgmii_phy>;
 +	phy-supply = <&reg_gmac_3v3>;
-+	allwinner,rx-delay-ps = <200>;
-+	allwinner,tx-delay-ps = <200>;
++	allwinner,rx-delay-ps = <0>;
++	allwinner,tx-delay-ps = <0>;
 +	status = "okay";
 +};
 +
